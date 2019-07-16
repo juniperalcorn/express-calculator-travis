@@ -13,5 +13,5 @@ test('divide 12 by 3 to equal 4', ()=>{
     expect(divide(12,3)).toBe(4)
 })
 test('7 divided by 3', ()=>{
-    expect(divide(7,3)).not.toBe(5)
+    expect(divide(7,3)).toBe(5)
 })

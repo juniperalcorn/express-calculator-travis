@@ -10,5 +10,5 @@ When("I increment the variable by {int}", function(number) {
 });
 
 Then("the variable should contain {int}", function(number) {
-  expect(this.variable).to.eql(string);
+  expect(this.variable).to.eql(number);
 });
